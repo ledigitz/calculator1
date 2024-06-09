@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(5, 33, 70);
+    font-family: "Poppins";
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
+.box{
+    margin: auto;
+    width: 25%;
+    height: 50vh;
+    
+    
+   
+}
+.container{
+    padding-top: 25%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto auto auto auto auto auto auto;
+    /* grid-auto-rows: 100px auto 75px; */
+    grid-template-areas: 
+    "hd hd hd hd"
+    "hd hd hd hd"
+    "cl cl sl st"
+    "sv ei ni mn"
+    "fr fv sx pl"
+    "tr tw on pl"
+    "zr zz eq bl"
+    ;
+    gap: 0.04rem;
+    height: 50vh;
+    
+}
+.header{
+    grid-area: hd;
+    background-color: white;
+    height: 120px;
+    color: black;
+    padding-top: 14%;
+    text-align: left;
+    
+   
+  
+}
+.clear{
+    grid-area: cl;
+    background-color: rgb(182, 29, 29);
+    height: 70px;
+    padding-top: 10%;
+}
+.slash{
+    grid-area: sl;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding-top: 20%;
+}
+.star{
+    grid-area: st;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+
+}
+.seven{
+    grid-area: sv;
+    background-color: rgb(2, 42, 95);
+    padding: 20%;
+    height: 70px;
+}
+.eight{
+    grid-area: ei;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+
+.nine{
+    grid-area: ni;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.minus{
+    grid-area: mn;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.four{
+    grid-area: fr;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.five{
+    grid-area: fv;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.six{
+    grid-area: sx;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.plus{
+    grid-area: pl;
+    background-color: rgb(2, 42, 95);
+    /* height: 70px; */
+    padding-top: 55%;
+    
+}
+.three{
+    grid-area: tr;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.two{
+    grid-area: tw;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.one{
+    grid-area: on;
+    background-color: rgb(2, 42, 95);
+    padding: 20%;
+    height: 70px;
+}
+
+.zero{
+    grid-area: zr;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.zerozero{
+    grid-area: zz;
+    background-color: rgb(2, 42, 95);
+    height: 70px;
+    padding: 20%;
+}
+.equalto{
+    grid-area: eq;
+    background-color: rgb(255, 209, 5);
+    height: 70px;
+    padding: 20%;
+}
+
